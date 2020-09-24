@@ -1,9 +1,0 @@
-[2020-09-21 21:41:34.742] [renderer1] [error] Error: Unable to read file '/home/luketfake/Documentos/Projects/share-info/web/.eslintrc.json' (Error: Unable to resolve non-existing file '/home/luketfake/Documentos/Projects/share-info/web/.eslintrc.json')
-    at Object.t.createErrorWithActions (file:///var/lib/snapd/snap/code/44/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:53:207)
-    at w.handleSetInputError (file:///var/lib/snapd/snap/code/44/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6055:958)
-    at w.handleSetInputError (file:///var/lib/snapd/snap/code/44/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6058:647)
-    at w.setInput (file:///var/lib/snapd/snap/code/44/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6055:674)
-    at async p.doSetInput (file:///var/lib/snapd/snap/code/44/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4739:797)
-    at async p.openEditor (file:///var/lib/snapd/snap/code/44/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4738:425)
-    at async file:///var/lib/snapd/snap/code/44/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6661:617
-    at async e.restoreEditors (file:///var/lib/snapd/snap/code/44/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6654:609)

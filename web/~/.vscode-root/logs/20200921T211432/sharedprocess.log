@@ -1,9 +1,0 @@
-[2020-09-21 21:14:37.810] [sharedprocess] [info] main {"machineId":"6c02c9b2e7d868424426a28b6ce7eeae21e314f01989e9336cff06e169fa585d","windowId":2}
-[2020-09-21 21:14:37.890] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/luketfake/Documentos/Projects/share-info/web/~/.vscode-root/User/snippets'
-[2020-09-21 21:14:41.099] [sharedprocess] [info] Installing extension: redhat.java
-[2020-09-21 21:15:17.915] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-09-21 21:15:18.771] [sharedprocess] [info] Downloaded extension: redhat.java /home/luketfake/Documentos/Projects/share-info/web/~/.vscode-root/CachedExtensionVSIXs/redhat.java-0.67.0
-[2020-09-21 21:15:20.619] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.redhat.java-0.67.0: redhat.java
-[2020-09-21 21:15:20.620] [sharedprocess] [info] Renamed to /root/.vscode/extensions/redhat.java-0.67.0
-[2020-09-21 21:15:20.621] [sharedprocess] [info] Installation completed. redhat.java
-[2020-09-21 21:15:20.861] [sharedprocess] [info] Extensions installed successfully: redhat.java
