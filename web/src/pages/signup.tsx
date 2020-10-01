@@ -1,13 +1,13 @@
-import { React, useState, FormEvent } from 'react'
-import { Flex, Button, Text, Link } from '@chakra-ui/core'
-import axios from 'axios'
-import Input from '../components/Input'
+import React, { useState, FormEvent } from 'react';
+import { Flex, Button, Text, Link } from '@chakra-ui/core';
+import axios from 'axios';
+import Input from '../components/Input';
 
 const SignUp: React.FC = () => {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [bio, setBio] = useState('')
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [bio, setBio] = useState('');
 
   function handleSignUp(event: FormEvent) {
     event.preventDefault()
@@ -42,7 +42,7 @@ const SignUp: React.FC = () => {
           placeholder="Nome"
           value={name}
           marginTop={6}
-          onChange={e => setName(e.target.value)}
+          onChange={(e) => setName(e.target.value)}
         />
 
         <Input
@@ -50,7 +50,7 @@ const SignUp: React.FC = () => {
           type="email"
           value={email}
           marginTop={2}
-          onChange={e => setEmail(e.target.value)}
+          onChange={(e) => setEmail(e.target.value)}
         />
 
         <Input
@@ -58,13 +58,13 @@ const SignUp: React.FC = () => {
           type="password"
           value={password}
           marginTop={2}
-          onChange={e => setPassword(e.target.value)}
+          onChange={(e) => setPassword(e.target.value)}
         />
 
         <Input
           placeholder="Bio"
           value={bio}
-          onChange={e => setBio(e.target.value)}
+          onChange={(e) => setBio(e.target.value)}
           marginTop={2}
         />
 
