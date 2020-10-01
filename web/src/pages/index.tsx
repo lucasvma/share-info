@@ -1,8 +1,11 @@
-import { Heading, Grid, Image, Flex, Link, Button, Text } from '@chakra-ui/core';
-import Divider from '../components/Divider';
-import Input from '../components/Input';
+import React from 'react'
+import { Heading, Grid, Image, Flex, Link, Button, Text } from '@chakra-ui/core'
+import Divider from '../components/Divider'
+import Input from '../components/Input'
 
-export default function Home() {
+import ShareInfoLogo from '../assets/forum-info.svg'
+
+const Index: React.FC = () => {
   return (
     <Grid
       as="main"
@@ -18,29 +21,26 @@ export default function Home() {
       alignItems="center"
     >
       <Flex gridArea="logo" flexDir="column" alignItems="flex-start">
-        <Image src="/forum-info.svg" width="60%" alt="Fórum Info"/>
+        <ShareInfoLogo />
 
-        <Heading size="2xl" lineHeight="shorter" marginTop="16">Faça seu login na plataforma</Heading>
+        <Heading size="2xl" lineHeight="shorter" marginTop="16">
+          Faça seu login na plataforma
+        </Heading>
       </Flex>
 
-      <Flex 
+      <Flex
         gridArea="form"
         height="100%"
-        backgroundColor="gray.700"  
+        backgroundColor="gray.700"
         borderRadius="md"
         flexDir="column"
         alignItems="stretch"
         padding={16}
       >
-        <Input
-          placeholder="E-mail"
-        />
+        <Input placeholder="E-mail" />
 
-        <Input 
-          placeholder="Senha"
-          marginTop={2}
-        />
-        
+        <Input placeholder="Senha" marginTop={2} />
+
         <Link
           alignSelf="flex-start"
           marginTop={2}
@@ -57,18 +57,13 @@ export default function Home() {
           height="50px"
           borderRadius="sm"
           marginTop={6}
-          _hover={{ backgroundColor: 'purple.600'}}
+          _hover={{ backgroundColor: 'purple.600' }}
         >
           ENTRAR
         </Button>
 
-        <Text
-          textAlign="center"
-          fontSize="sm"
-          color="gray.300"
-          marginTop={6}
-        >
-          Não tem uma conta? {"  "}
+        <Text textAlign="center" fontSize="sm" color="gray.300" marginTop={6}>
+          Não tem uma conta? {'  '}
           <Link
             color="purple.600"
             fontWeight="bold"
@@ -98,3 +93,5 @@ export default function Home() {
     </Grid>
   )
 }
+
+export default Index
